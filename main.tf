@@ -49,7 +49,7 @@ resource "azurerm_linux_virtual_machine" "test1" {
   size                = "Standard_F2"
   disable_password_authentication = false 
   admin_username      = "adminuser"
-  admin_password      = "Adm1nu$er*"
+  admin_password      = "Adm1nu$er&"
   network_interface_ids = [
     azurerm_network_interface.test1.id,
   ]
